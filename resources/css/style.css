@@ -1,0 +1,31 @@
+html {
+  font-size: 16px;
+  font-family: 'Lato', serif;
+}
+
+/*Header*/
+.topnav {
+  display: flex;
+}
+
+.academy-info {
+  display: flex;
+}
+
+.academy-name span {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+}
+
+.colmar {
+  font-weight: 900;
+}
+
+.academy {
+  font-weight: 300;
+}
+
+.navigation {
+
+}
