@@ -6,10 +6,15 @@ html {
 /*Header*/
 .topnav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
 }
 
 .academy-info {
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .academy-name span {
@@ -26,6 +31,30 @@ html {
   font-weight: 300;
 }
 
-.navigation {
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
 
+nav ul li {
+  text-transform: uppercase;
+  padding-right: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+
+/*Banner*/
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 24px;
+}
+
+.image-banner {
+  width: 60%;
 }
